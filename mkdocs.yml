@@ -1,14 +1,30 @@
-site_name: D1.1 Technology Review & Technical Specs.
+site_name: D1.1 Technical Specs. & Technology Evaluation
+repo_name: 'GitHub'
+# TODO: temporary until merged into master--
+repo_url: https://github.com/pcrespov/oSPARC_Test
+edit_uri: edit/feature/report_review/docs/d1.1-report
+#--
+docs_dir: './docs/d1.1-report'
+site_description: 'Detailed technical specifications for o2S2PARC based on user requirements (e.g. from questonnaires) and technology evaluation.'
+site_author: "Foundation for Research on Information Technologies in Society (IT'IS)"
 pages:
-  - Home: 'd1.1-techreview/index.md'
-  - Objectives: 'd1.1-techreview/objectives.md'
-  - Methodology: 'd1.1-techreview/methodology.md'
-  - Results:
-    - 'Overview': 'd1.1-techreview/results.md'
-    - 'Front-end': 'd1.1-techreview/parts/client-side.md'
-    - 'Web-server': 'd1.1-techreview/parts/server-side.md'
-    - 'Communication models': 'd1.1-techreview/parts/communication.md'
-    - 'Computational services': 'd1.1-techreview/parts/comp-services.md'
-    - 'Demonstrations': 'd1.1-techreview/parts/demos.md'
-  - Conclusions: 'd1.1-techreview/conclusion.md'
+  - Introduction: 'index.md'
+  - Requirements Gathering:
+    - 'Methodology': 'reqs/methodology.md'
+    - 'Results': 'reqs/results.md'
+    - 'Conclusions': 'reqs/conclusions.md'
+  - Technology Evaluation:
+    - Methodology: 'tech/methodology.md'
+    - Front-end: 'tech/parts/client-side.md'
+    - Web-server: 'tech/parts/server-side.md'
+    - Communication models: 'tech/parts/communication.md'
+    - Computational services: 'tech/parts/comp-services.md'
+    - Demonstrations: 'tech/parts/demos.md'
+    - Conclusions: 'tech/conclusion.md'
+  - Specficications:
+    - 'High Level Platform Functionality Specifications': 'specs/high-level.md'
+    - 'Framework Architecture Specifications': 'specs/low-level.md'
+  - Conclusions: 'conclusions.md'
+  #- Appendix 1: 'd1.1-report/reqs/Questionnaire_SPARC_Teams_v5.pdf'
+
 theme: readthedocs
