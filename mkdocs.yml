@@ -22,7 +22,7 @@ pages:
     - Computational services: 'tech/parts/comp-services.md'
     - Demonstrations: 'tech/parts/demos.md'
     - Conclusions: 'tech/conclusion.md'
-  - Specficications:
+  - Specifications:
     - 'High Level Platform Functionality Specifications': 'specs/high-level.md'
     - 'Framework Architecture Specifications': 'specs/low-level.md'
   - Conclusions: 'conclusions.md'
